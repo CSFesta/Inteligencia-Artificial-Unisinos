@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Weback/.vscode/projects/outros/ia-aula/Inteligencia-Artificial-Unisinos/Aula2/exercicio1",
-      "program": "c:/Users/Weback/.vscode/projects/outros/ia-aula/Inteligencia-Artificial-Unisinos/Aula2/exercicio1/build/Debug/outDebug",
+      "cwd": "c:/Users/Weback/.vscode/projects/outros/ia-aula/Inteligencia-Artificial-Unisinos/exercicio1",
+      "program": "c:/Users/Weback/.vscode/projects/outros/ia-aula/Inteligencia-Artificial-Unisinos/exercicio1/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

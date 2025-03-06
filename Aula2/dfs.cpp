@@ -26,7 +26,8 @@ bool bfs(vector<vector<int>> &graph, vector<bool> &vis, int start, int dest) {
     while (!q.empty()) {
         int at = q.front();
         q.pop();
-        cout << at << " ";
+
+        cout << at << " ";  // Agora o nó sempre será impresso antes de qualquer verificação.
 
         if (at == dest) {
             return true;  
@@ -54,11 +55,11 @@ int main(){
         {0, 5, 6},     // 2 → 0, 5, 6
         {1, 7, 8},     // 3 → 1, 7, 8
         {1, 9, 10},    // 4 → 1, 9, 10
-        {2, 11, 12},   // 5 → 2, 11, 12
-        {2, 13, 14},   // 6 → 2, 13, 14
+        {2, 12, 11},   // 5 → 2, 11, 12
+        {2, 14, 16},   // 6 → 2, 13, 14
         {3, 15, 16},   // 7 → 3, 15, 16
-        {3},           // 8 → 3
-        {4},           // 9 → 4
+        {3, 12},           // 8 → 3
+        {4, 13},           // 9 → 4
         {4},           // 10 → 4
         {5},           // 11 → 5
         {5},           // 12 → 5
@@ -94,7 +95,7 @@ int main(){
     cout << "grafo 3 com dfs: ";
     dfs(graph3, vis3, 0, destination3);
     cout << "\n";
-    vis3.clear();
+    fill(vis3.begin(), vis3.end(), false);
     cout << "grafo 3 com bfs: ";
     bfs(graph3, vis3, 0, destination3);
 
