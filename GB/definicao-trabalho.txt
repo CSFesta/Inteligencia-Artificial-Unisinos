@@ -1,0 +1,47 @@
+Definição e entrega do trabalho
+Condições de conclusão
+Nesta atividade, os alunos deverão trabalhar em grupos de até 4 integrantes para propor e implementar uma aplicação de redes neurais voltada à resolução de um problema real ou relevante em seus contextos profissionais ou acadêmicos.
+
+A atividade visa integrar conhecimentos teóricos e práticos, promovendo a aplicação de redes neurais para problemas concretos, com uma análise crítica dos resultados obtidos.
+
+Entregáveis:
+Apresentação presencial em sala de aula, com duração de até 15 minutos por grupo, seguida de 5 minutos para perguntas;
+
+Um repositório com o código-fonte, contendo:
+
+Implementação comentada e funcional;
+
+README com descrição clara do problema, instruções de execução e informações sobre o dataset utilizado;
+
+Link para download do dataset ou script de preparação dos dados.
+
+Durante a apresentação, espera-se que o grupo aborde:
+Descrição do problema e sua relevância na área de atuação;
+
+Apresentação do dataset, incluindo origem, principais características e pré-processamento realizado;
+
+Justificativa do uso de redes neurais para a solução proposta;
+
+Descrição da arquitetura adotada, com destaque para aspectos importantes do modelo (número de camadas, função de ativação, etc.);
+
+Demonstração do funcionamento do modelo treinado, com exemplos de entrada/saída e visualização de métricas ou resultados;
+
+Discussão crítica sobre o desempenho do modelo, limitações e possibilidades de aprimoramento.
+
+Requisitos técnicos:
+A implementação pode ser realizada em qualquer linguagem, utilizando frameworks para ML;
+
+Espera-se um modelo funcional e coerente com o problema proposto, ainda que simples;
+
+É obrigatório que o modelo seja treinado e testado em dados reais ou sintéticos apropriados.
+
+Critérios de avaliação:
+Clareza e profundidade da apresentação;
+
+Adequação entre problema, dataset e modelo proposto;
+
+Qualidade da implementação (organização, documentação, execução);
+
+Análise crítica dos resultados obtidos;
+
+Participação equilibrada dos membros do grupo e domínio do conteúdo apresentado.
